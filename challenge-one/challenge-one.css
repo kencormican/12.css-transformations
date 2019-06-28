@@ -1,0 +1,11 @@
+img {
+	margin: 50px;
+	transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+img:hover {
+   transform: scale(2);
+}
+    

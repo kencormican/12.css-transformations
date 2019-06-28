@@ -1,0 +1,16 @@
+img {
+     margin: 50px;
+	 animation-name: spin;
+	 animation-delay: 2s;
+	 animation-duration: 1s;
+	 animation-timing-function: linear; /*continuous movement with no breaks*/
+	 animation-iteration-count: infinite; /*infinite rotatation*/
+	 
+}
+
+@keyframes spin{
+   	    from {transform: rotate(0); /*from state*/
+    }
+   	    to {transform: rotate(1turn); /*to state*/
+    }
+}

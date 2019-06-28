@@ -1,0 +1,47 @@
+Now let's take a look at transformations.
+
+A transformation generally translates into a translation where you're moving the object from one X and Y 
+
+coordinate to another on the screen.
+
+You can scale it, you can increase its size or decrease its size, and you can skew it amongst others.
+
+So let's have a look at that now.
+As is becoming tradition in these labs, we create a box, and we give it some width and height values.
+So we set the width and height to be 100 pixels.
+And we set the background color to the red-orange that we've been using on and off throughout the labs.
+Let's test our CSS just to make sure it's being applied.
+And we can see it is, 100 by 100, a square.
+
+
+Now we're going to add a transform.
+And the value for that transform is going to be a translation.
+So we're going to translate, which really means move, our box 100 pixels along the x-axis and 100 pixels 
+
+along the y-axis. It's just like Cartesian geometry you would have learned at school. Our coordinates 
+
+are "X" and "Y", so the first value is an "X", and the second value is a "Y". And remember that in 
+
+computing the origin, (0,0) is the top left hand corner, so just be aware of that when you're doing 
+
+translations. It's not the bottom left-hand corner.
+
+Out in developer tools, we could play around with the values to see them translate. These really come 
+
+into their own when they're used as part of hover triggers or elevations. You can also use different 
+
+measurements as well, such as centimeters, and percentages, and so on. 
+
+You can do rotations. You can see here, you can rotate 3d, you can rotate on the zed, you can rotate on 
+
+the Y, on the X.  So they're quite fun to play around with and get used to. So let's do a rotation here. 
+
+I'm gonna rotate in terms of degrees, so that's the values that you can use here. I can use a minus, 
+
+again, up to 360 degrees for a full rotation and beyond. To increase beyond that, you can use animations 
+
+to make these quite interesting.
+
+Let's have a look at the skew.
+And you can see that in action.
+Great fun, can be quite useful as well. Get to know them, play around with them.
